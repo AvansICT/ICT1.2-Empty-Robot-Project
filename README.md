@@ -13,18 +13,13 @@ lampje.SetOn();
 
 What this project contains
 
--- Minimal .NET project targeting `net9.0`.
-
-- Example hardware folders included under `Hardware/`:
-  - `GyroCompass/` — compass and gyro helpers
-  - `Speaker/` — simple WAV speaker helper
-  - `Touchpad/` — touchpad input helper
+-- Minimal .NET project targeting `net8.0`.
 
 Getting started
 
 1. Prerequisites
 
-- .NET 9 SDK (to match `net9.0` target)
+- .NET 9 SDK (to match `net8.0` target)
 - Visual Studio Code (recommended)
 - Install the Avans-StatisticalRobot VS Code extension to connect to the robot
 
