@@ -7,8 +7,8 @@ It contains a quick example in `Program.cs` prints a greeting and toggles an LED
 ```csharp
 Console.WriteLine("Hello Robot!");
 
-Led lampje = new Led(1); // kies wel de juiste pin!
-lampje.SetOn();
+Led redLed = new Led(5); // kies wel de juiste pin!
+redLed.SetOn();
 ```
 
 What this project contains
@@ -19,7 +19,7 @@ Getting started
 
 1. Prerequisites
 
-- .NET 9 SDK (to match `net8.0` target)
+- .NET 8 SDK (to match `net8.0` target)
 - Visual Studio Code (recommended)
 - Install the Avans-StatisticalRobot VS Code extension to connect to the robot
 
