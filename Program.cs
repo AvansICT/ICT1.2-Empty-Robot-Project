@@ -1,7 +1,4 @@
 using Avans.StatisticalRobot;
-using GyroscopeCompass.GyroscopeCompass;
-using Hardware.Touchpad;
-using Speaker;
 using System.Device.I2c;
 
 /* 
@@ -21,6 +18,14 @@ using System.Device.I2c;
 
 Console.WriteLine("Hello Robot!");
 
-Led lampje = new Led(1); // kies wel de juiste pin!
-lampje.SetOn();
+Led redLed = new Led(5); // kies wel de juiste pin!
 
+redLed.SetOn();
+Console.WriteLine("On!");
+Robot.Wait(1000);
+
+redLed.SetOff();
+Console.WriteLine("Off!");
+Robot.Wait(1000);
+
+Console.WriteLine("Done!");
