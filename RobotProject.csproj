@@ -8,10 +8,14 @@
     <PlatformTarget>ARM64</PlatformTarget>
   </PropertyGroup>
 
+
   <ItemGroup>
-    <PackageReference Include="Avans.StatisticalRobot" Version="1.2.4" />
+    <!-- <PackageReference Include="Avans.StatisticalRobot" Version="1.2.4" /> -->
+    <ProjectReference Include="../ICT1.2-Avans_Robot_Library/StatisticalRobot-Lib/StatisticalRobot-Lib.csproj" />
+
     <PackageReference Include="System.Device.Gpio" Version="3.2.0" />
     <PackageReference Include="System.IO.Ports" Version="9.0.0" />
   </ItemGroup>
+  
 
 </Project>
